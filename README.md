@@ -43,10 +43,13 @@ These findings suggest that while there might be a subtle tendency for wind spee
 -------------------------------------------
 
 * Note: Disclosure of Assistance:
-In completing this assignment, I utilized a combination of classroom instruction, online resources, external assistance, and collaborative discussions with peers and instructors. This includes, but is not limited to:
+  
+In completing this assignment, I utilized a combination of classroom instruction, online resources, external assistance, and collaborative discussions with peers and instructors. 
+This includes, but is not limited to:
 - AI tools such as ChatGPT,  Bard (Google), GitHub Copilot, etc. 
 - Websites and platforms like Microsoft Learn, GitHub, and Stack Overflow.
 - Guidance from tutors and course support staff (instructors, TAs, Learning Assistant, etc.). 
+
 I acknowledge that some portions of the code or analysis may have been derived from or inspired by these sources.
 
 -------------------------------------------
