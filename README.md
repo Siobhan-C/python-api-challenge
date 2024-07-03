@@ -1,5 +1,57 @@
 # python-api-challenge / Module 6 Challenge
 
+Analysis of data: 
+### Humidity vs. Latitude Linear Regression Plot
+### Cloudiness vs. Latitude Linear Regression Plot
+### Wind Speed vs. Latitude Linear Regression Plot
+
+The linear regression analysis of wind speed versus latitude reveals minimal correlation in both the Northern and Southern Hemispheres. The Northern Hemisphere plot shows a very slight negative correlation (-0.087), implying wind speed might decrease marginally as latitude increases, but this relationship is not statistically significant.
+
+In the Southern Hemisphere, the trend is also a weak negative correlation (-0.062), indicating a minor decrease in wind speed as latitude increases. However, like in the Northern Hemisphere, this correlation is not statistically significant.
+
+The equations of the regression lines for the Northern Hemisphere (y = 0.02x + 2.8) and the Southern Hemisphere (y = -0.05x + 3.14) further confirm this lack of strong association. The slopes of both lines are very close to zero, suggesting that a change in latitude does not lead to a substantial change in wind speed.
+
+The low R-squared values for both plots corroborate the weak correlations. In the Northern Hemisphere, the R-squared value is 0.0076, meaning that only 0.76% of the variation in wind speed can be explained by latitude. In the Southern Hemisphere, the R-squared value of 0.0038 is even lower, indicating that only 0.38% of the variation in wind speed is explained by latitude.
+
+These findings suggest that while there might be a subtle tendency for wind speed to decrease slightly with increasing latitude in both hemispheres, this relationship is not strong enough to be considered meaningful. Other factors, such as air pressure, temperature gradients, and local weather patterns, likely play more significant roles in determining wind speed than latitude.
+
+
+**Discussion about the linear relationship:** 
+The linear regression analysis of cloudiness versus latitude uses data to provide an interesting picture.  While the scatter plots for both the Northern and Southern Hemispheres show a linear regression line, the very low R-values (0.09 and 0.02) indicate that latitude ny itself does not explain the variation in cloudiness in either hemisphere.
+
+This could be due to cloud formation being complex and influenced by multiple factors such as humidity, air pressure, temperature gradients, winds, etc. Latitude indirectly plays a role in these factors due to variations in solar radiation, but its individual impact on cloudiness appears minimal based on this data.
+
+The slight positive slope observed in the Southern Hemisphere regression line could be due to the specific time period the data was collected, potentially during a time of year when the southern hemisphere experiences increased cloud cover. This is just a guess as we do not have additional information, such as the seasonality of the data, to validate this perspective. 
+
+Also, it is important note that the analysis focuses on latitude and may overlook other factors influencing cloudiness such as proximity to large bodies of water or mountain ranges (they could play a significant role in cloud formation).
+
+In conclusion, the linear regression analysis provides a visual representation of the relationship between cloudiness and latitude, the very weak correlations suggest that more nuanced analysis is needed to understand the complex factors that drive cloud formation and distribution across the globe. Additional data and analysis would be needed to draw more concrete conclusions. 
+
+
+### Wind Speed vs. Latitude Linear Regression Plot **Discussion about the linear relationship:** 
+
+The linear regression analysis of wind speed versus latitude reveals minimal correlation in both the Northern and Southern Hemispheres. The Northern Hemisphere plot shows a very slight negative correlation (-0.087), implying wind speed might decrease marginally as latitude increases, but this relationship is not statistically significant.
+
+In the Southern Hemisphere, the trend is also a weak negative correlation (-0.062), indicating a minor decrease in wind speed as latitude increases. However, like in the Northern Hemisphere, this correlation is not statistically significant.
+
+The equations of the regression lines for the Northern Hemisphere (y = 0.02x + 2.8) and the Southern Hemisphere (y = -0.05x + 3.14) further confirm this lack of strong association. The slopes of both lines are very close to zero, suggesting that a change in latitude does not lead to a substantial change in wind speed.
+
+The low R-squared values for both plots corroborate the weak correlations. In the Northern Hemisphere, the R-squared value is 0.0076, meaning that only 0.76% of the variation in wind speed can be explained by latitude. In the Southern Hemisphere, the R-squared value of 0.0038 is even lower, indicating that only 0.38% of the variation in wind speed is explained by latitude.
+
+These findings suggest that while there might be a subtle tendency for wind speed to decrease slightly with increasing latitude in both hemispheres, this relationship is not strong enough to be considered meaningful. Other factors, such as air pressure, temperature gradients, and local weather patterns, likely play more significant roles in determining wind speed than latitude.
+
+
+* Note: Disclosure of Assistance:
+In completing this assignment, I utilized a combination of classroom instruction, online resources, external assistance, and collaborative discussions with peers and instructors. This includes, but is not limited to:
+- AI tools such as ChatGPT,  Bard (Google), GitHub Copilot, etc. 
+- Websites and platforms like Microsoft Learn, GitHub, and Stack Overflow.
+- Guidance from tutors and course support staff (instructors, TAs, Learning Assistant, etc.). 
+I acknowledge that some portions of the code or analysis may have been derived from or inspired by these sources.
+
+-------------------------------------------
+
+
+
 Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
@@ -175,6 +227,9 @@ Create a map that displays a point for every city in the city_data_df DataFrame 
 
 Narrow down the city_data_df DataFrame to find your ideal weather condition (5 points)
 
+Add the hotel name and the country as additional information in the hover message for each city in the map. (10 points)
 For each city in the hotel_df DataFrame, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates (10 points)
 
-Add the hotel name and the country as additional information in the hover message for each city in the map. (10 points)
+
+
+
