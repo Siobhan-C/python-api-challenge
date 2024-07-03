@@ -40,6 +40,7 @@ The low R-squared values for both plots corroborate the weak correlations. In th
 
 These findings suggest that while there might be a subtle tendency for wind speed to decrease slightly with increasing latitude in both hemispheres, this relationship is not strong enough to be considered meaningful. Other factors, such as air pressure, temperature gradients, and local weather patterns, likely play more significant roles in determining wind speed than latitude.
 
+-------------------------------------------
 
 * Note: Disclosure of Assistance:
 In completing this assignment, I utilized a combination of classroom instruction, online resources, external assistance, and collaborative discussions with peers and instructors. This includes, but is not limited to:
