@@ -1,10 +1,8 @@
 # python-api-challenge / Module 6 Challenge
 
 -----------------------------------------
-## Dear Grader / Reviewer:
-## Please see my comments included with the submission link. 
-
-
+## Dear Grader / Reviewer: 
+Please see my comments included with the submission link. 
 Please note, if there are missing or imperfect components, I am hoping you can evaluate the core work that was done. I understand this may affect the grade, but I'd be grateful if you wouldn't mark it as missing.
 
 
@@ -242,6 +240,9 @@ Narrow down the city_data_df DataFrame to find your ideal weather condition (5 p
 Add the hotel name and the country as additional information in the hover message for each city in the map. (10 points)
 For each city in the hotel_df DataFrame, use the Geoapify API to find the first hotel located within 10,000 metres of your coordinates (10 points)
 
+Disclosure note: This note is to acknowledge that I used external resources while working on this project, such as AI/Chatbots (ChatGPT, Bard/Google), consultations with classmates and different tutors, ASU/Bootcamp tutors, ASKBCS, YouTube tutorials, and other online materials (stackoverflow, Google Colab, etc).
 
+
+### Questions? Contact me here :) 
 
 
